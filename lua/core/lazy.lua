@@ -21,5 +21,5 @@ require("lazy").setup("core.plugins", {
     enabled = false,
     notify = true,
   },
-  debug = false,
+  debug = true,
 })
