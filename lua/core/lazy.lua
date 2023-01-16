@@ -13,7 +13,7 @@ end
 vim.opt.runtimepath:prepend(lazypath)
 
 --- Load lazy.nvim
-require("lazy").setup("core.plugins", {
+require("lazy").setup("plugins", {
   install = {
     missing = false,
   },
